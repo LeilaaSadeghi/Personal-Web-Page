@@ -70,32 +70,7 @@ info p{
   margin-top: 10px;
   margin-bottom: 30px;
 }
-.img-box{
-  width:5%;
-  height:80%;
-  position: absolute;
-  bottom: 0px;
-  right: 50px;
-}
-.img-box img{
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  bottom:0;
-  transform: translateX(-20%);
-  transition: bottom 1s, left 1s;
-}
-.back-img{
-  filter: invert(33%) sepia(52%) saturate(4225%) hue-rotate(349deg) brightness(107%) contrast(101%);
-}
-.img-box:hover .back-img{
-  bottom: -10px;
-  transition: 1s;
-}
-.img-box:hover .man-img{
-  left: 54%;
-  transition: 1s;
-}
+
 .social{
   margin-left: 8%;
   margin-top: 25px;
@@ -110,8 +85,10 @@ info p{
   color: #ff4321;
 }
 iframe{
-  width: auto;
-  height:auto;
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   border: none;
 }
 

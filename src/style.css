@@ -56,6 +56,7 @@ nav ul li a:hover{
 .info{
   margin-left:8%;
   margin-top: 10%;
+  margin-right: 50%;
 }
 .info h1{
   font-size: 40px;
@@ -64,11 +65,12 @@ nav ul li a:hover{
 .info h1 span{
   color:#ff4321;
 }
-info p{
+.info p{
   color: #606163;
   line-height: 22px;
   margin-top: 10px;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .social{

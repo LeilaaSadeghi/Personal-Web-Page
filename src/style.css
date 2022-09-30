@@ -83,7 +83,7 @@ info p{
   left: 50%;
   bottom:0;
   transform: translateX(-20%);
-  transiton: bottom 1s, left 1s;
+  transition: bottom 1s, left 1s;
 }
 .back-img{
   filter: invert(33%) sepia(52%) saturate(4225%) hue-rotate(349deg) brightness(107%) contrast(101%);
